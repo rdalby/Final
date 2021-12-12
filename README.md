@@ -21,7 +21,7 @@ Third-person open world adventure
 Opening Scene
 
 ### Downloading/Running project comments: 
-When opening I had to remove the library folder to get it to upload as it was over 9gb and it exceeded my github upload allowance. But it should auto-create a new library folder when you import the project into unity. There are some files there I did not remove from some packages I imported but ended up not using I did try to clean it up the best I could but also leaving some for the expanded version of the game. 
+When opening I had to remove the library folder to get it to upload as it was over 9gb and it exceeded my github upload allowance. But it should auto-create a new library folder when you import the project into unity. There are some files there I did not remove from some packages I imported but ended up not using I did try to clean it up the best I could but also leaving some for the expanded version of the game. The import errors you may receive on some of the models should be fine as they are not used in the scene and it runs without those references. 
 
 ---
 
@@ -332,43 +332,73 @@ I spent over 80 hours on what is here and some additional items that I had remov
 ---
   
 
-## Software Used: 
+## Software I Used to edit/create: 
 Photoshop  
 Blender  
 Realplayer me – model builder  
 Mixamo - animations  
+Unity Asset Store
 
 
-## Imported Items: 
-*most prefabs and models were additionally modified by different uses of textures and designs*
+## Imported Assests: 
+*most prefabs and models were additionally modified by different uses of textures, designs, animations, and scripts*
 
 *Terrain*  
-- textures
-- brushes
-- materials
+- Terrain Textures Pack Free
+- Terrain Tools Sample Asset Packs
   
 *Skyboxes*  
-  
-*Animations*  
+- Skybox Series Free
+
+*Animations*
+- Mixamo animations 
   
 *Models*  
-- Trex
+- Trex -[Tyranosaurus Rex (Animated)](https://skfb.ly/o6KUK) by SpiderCraft9972 is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/)
+- School assets
+- School Globe
+- Table angular
+- Student ID
 - School Supplies
-- Bone
-- Rocks
-- Snaps
+- Sci Fi Food Pack
+- Horror School Props
+- Toon Furniture
+- QA Books
+- First-Aid Set
+- FREE Rigged Skeleton and Bone Collection
+- Free Rocks
+- Snaps prototype | office
+- Human Character (FREE Sample Pack)
   
 *Sprites*  
+- Free icons set
+  
+*Textures*  
+- Floor Textures -4K
+- Low Poly Free Vegetation Kit
+- Outdoor Ground Textures
   
 *Textmesh pro*  
   
 *Probuilder*  
   
-*Textures*  
-- floors
-- earth 
+*Standard Assets*
+
+*UMotion Community - Animation Editor*
   
 
 
 ## Packages Used In Project: 
-
+  
+Cinemachine  
+Input System  
+JetBrains Rider Editor  
+ProBuilder  
+ProGrids  
+Test Framework  
+TextMeshPro  
+Timeline  
+unity UI  
+Version Control  
+Visual Studio Code Editor  
+Visual Studio Editor  
