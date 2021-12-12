@@ -166,9 +166,20 @@ PopCan.cs
 - Free image for the background
 - TextmeshPro for the text in the boxes
   
+*Player*  
+- Third-person controller for best animation
+- free-look camera Cinemachine allows for good followup
+- Camera focus point needed to make sure it focuses on the right area
+- School outfit
+
+*NPCs*  
+- Each have animator
+- Some sort of popup message on trigger stay
+- positioned strategically to allow for decent direction for the character
+  
 *Characters*  
 - I created each character in Realme Player’s avatar builder and exported them
-- I had 1 base male character that I used didn’t textures and materials to create a different feeling character.
+- I had 1 base male character that I used didn’t textures and materials to create a different feeling character
 - I modified the models in blender to combine the neck and head onto some of the avatars I created in realme player
   
 *Animations*  
@@ -203,7 +214,7 @@ PopCan.cs
 - Health bar that follows the users health
 - item indicator for when you have the item
 - popups for both the item and popcan that are triggered by proximity
-  
+ 
 *Terrain*  
 - mountain with snow
 - hills with trees both dead and alive
