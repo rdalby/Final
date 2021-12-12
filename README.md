@@ -2,9 +2,9 @@
 ### Rachel Dalby
 
 ## Overview:
-My game follows a school kid on their journey through the ages. The kid was tasked to go to the history teacher’s office. Where the History Teacher instructs him to go to the bookshelf and look at the popcans (soda). He sees one that has a red unearthly feel to it and some cheesy tagline. The Kid decides to drink it and it transports him to pre-historic times. The kid must solve the clues to defeat each “boss” that will be guarding the next pop. Must drink the pop to get to new level but don’t have to right away. You go through that pattern until finally back to the present.![image](https://user-images.githubusercontent.com/45082113/145699158-f35f8c8c-872a-4126-9988-694e0f1901a7.png)
+My game follows a school kid on their journey through the ages. The kid was tasked to go to the history teacher’s office. Where the History Teacher instructs him to go to the bookshelf and look at the popcans (soda). He sees one that has a red unearthly feel to it and some cheesy tagline. The Kid decides to drink it and it transports him to pre-historic times. The kid must solve the clues to defeat each “boss” that will be guarding the next pop. Must drink the pop to get to new level but don’t have to right away. You go through that pattern until finally back to the present.
 
-
+  
 
 ### Designed and Programmed in: 
 Unity Version: 2020.3.19f1
