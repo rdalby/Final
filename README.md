@@ -305,8 +305,28 @@ ItemIndicator.cs (DinosaurScene)**
 **BossItem.cs (DinosaurScene)**  
 - Adapts the item to trigger or not trigger depending on what is colliding with it. Sets up the rigidbody attributes to make sure that it can be collided with and not sink through the terrain. Has the code for when it gets pickedup. OnTriggerStay is used repeatedly as that allows for the popups to stay up and not blink away after update is ran.
 
-
+    
+  
 ---
+
+## Difficulties: 
+I had a number of difficulties with my project the terrain was a tricky one as I wanted to get something that felt “real” and the more realistic I went the more I realized that I needed to adapt other elements to match. I pulled in some terrain tools from a package and some terrain textures to get look and feel down. Building the terrain was a trial and error type of situation and I kind just kind of went through each section learning what each part does.  
+
+The Item picking up and throwing section was really hard I had to convert to a trigger on collide then out again when you left the trigger. Then if you picked it up having to change more settings. It was extremely difficult and combursome and looked off when it was animated. I could get the pickup fine but for some reason throw the item I couldn't get it to modify. Same goes for it I attached the item first and just tried to throw it I could get the throw down but no pickup. So I opted for a setting the item inactive on pickup and then transforming to the characters position on throw and adding force to it to go towards where you were throwing. I used this concept for the popcan on the Dinosaurs tail.  
+  
+Animations were a struggle for me but I got them working and figured out how to adapt downloaded ones to work with humanoid figures. Also how to modify and create my own animations. I used blender to create some meshes and skeletons for the models I didn’t have so I could use animations on them. I did not include a number of my animations in the final project as they did not get to be completely utilized. I wanted to create some animations going into the scenes and whatnot but there was just not enough time to get everything I wanted in. I was however able to get each of my NPCs, Character, and Trex animated. I plan on adding in some animations for the HUD UI later.  
+  
+Then came the lighting issues. Especially with the school scene I could not get the lighting to work inside the school with lights. Everything was either way to bright even with the intensity turned down or super dark. Both ends of the spectrum lost all the details I had put into the design of the school. 
+Then I had issues with the item pickup/throw. I could get the item picked up and attached to the character just fine but I could not get the throw. I figured out that I could just set it to inactive and put the icon in the HUD instead. Then do the other computing I needed making it look like it came from the player without it being attached to the player. It actually worked out better as the bone for the dinosaur scene is rather large and looked off when the player ran with it.  
+  
+These are just the big issues that I ran into and they took a lot of time to work through. I did however adapt my code to be generic for each continuing level so I could reuse a lot of my scripts. I tried to make it as flexible as possible.  
+
+I spent over 80 hours on what is here and some additional items that I had removed/extracted that goes to later levels/expanded versions of current levels that I was not able to finish in time. Including more items/background characters in the school scene, as well as, bigger playing area including outside. In the dinosaur level there is an enemies script that I started to set the framework in for the enemies and how they will take damage on collision. I had some additional models created for the enemies but they had issues with the gravity and animations to the point that they would up in the area and not come down. I realized it had to do with the colliders and how they initially collided and how they weren't updating the gravity. As such I removed them to make a more uniform scene.  
+  
+I do plan on continuing this game as it is something that have enjoyed and I find myself getting sucked into it. I plan on expanding it out at least to 8 different levels and having rotating hints for each scene on random and scripts for the NPCs and transitions. 
+  
+---
+  
   
  ## Expanded Scope:
 8 total levels to time travel to different bosses in each level  
@@ -314,34 +334,20 @@ additional enemies
 items to pickup on the level that react to the scene  
 Weapons to use against enemies in level  
   
-
----
-
-## Difficulties: 
-I had a number of difficulties with my project the terrain was a tricky one as I wanted to get something that felt “real” and the more realistic I went the more I realized that I needed to adapt other elements to match. I pulled in some terrain tools from a package and some terrain textures to get look and feel down.  
-  
-Animations were a struggle for me but I got them working and figured out how to adapt downloaded ones to work with humanoid figures. Also how to modify and create my own animations. I used blender to create some meshes and skeletons for the models I didn’t have so I could use animations on them.  
-  
-Then came the lighting issues. Especially with the school scene I could not get the lighting to work inside the school with lights. Everything was either way to bright even with the intensity turned down or super dark. Both ends of the spectrum lost all the details I had put into the design of the school. 
-Then I had issues with the item pickup/throw. I could get the item picked up and attached to the character just fine but I could not get the throw. I figured out that I could just set it to inactive and put the icon in the HUD instead. Then do the other computing I needed making it look like it came from the player without it being attached to the player. It actually worked out better as the bone for the dinosaur scene is rather large and looked off when the player ran with it.  
-  
-These are just the big issues that I ran into and they took a lot of time to work through. I did however adapt my code to be generic for each continuing level so I could reuse a lot of my scripts.  
-
-I spent over 80 hours on what is here and some additional items that I had removed/extracted that goes to later levels/expanded versions of current levels that I was not able to finish in time. Including more items/background characters in the school scene, as well as, bigger playing area including outside. In the dinosaur level there is an enemies script that I started to set the framework in for the enemies and how they will take damage on collision. I had some additional models created for the enemies but they had issues with the gravity and animations to the point that they would up in the area and not come down. I realized it had to do with the colliders and how they initially collided and how they weren't updating the gravity. As such I removed them to make a more uniform scene.  
   
 ---
-  
 
 ## Software I Used to edit/create: 
 Photoshop  
 Blender  
-Realplayer me – model builder  
+RealPlayer me – model builder  
 Mixamo - animations  
 Unity Asset Store
 
 
 ## Imported Assests: 
-*most prefabs and models were additionally modified by different uses of textures, designs, animations, and scripts*
+*most prefabs and models were additionally modified by different uses of textures, designs, animations, and scripts*  
+*Unless otherwise linked all items were found in the [unity asset](https://assetstore.unity.com/) store under their name*
 
 *Terrain*  
 - Terrain Textures Pack Free
@@ -351,9 +357,11 @@ Unity Asset Store
 - Skybox Series Free
 
 *Animations*
-- Mixamo animations 
+- [Mixamo](https://www.mixamo.com/#/) for animations 
+- UMotion Community - Animation Editor
   
 *Models*  
+- Characer bases [RealPlayer Me](https://readyplayer.me/)
 - Trex -[Tyranosaurus Rex (Animated)](https://skfb.ly/o6KUK) by SpiderCraft9972 is licensed under [Creative Commons Attribution](http://creativecommons.org/licenses/by/4.0/)
 - School assets
 - School Globe
@@ -378,13 +386,9 @@ Unity Asset Store
 - Low Poly Free Vegetation Kit
 - Outdoor Ground Textures
   
-*Textmesh pro*  
-  
-*Probuilder*  
-  
-*Standard Assets*
+*Misc*  
+- Standard Assets
 
-*UMotion Community - Animation Editor*
   
 
 
