@@ -74,7 +74,7 @@ PopCan.cs
 
   
 
-### Characters
+### Characters:
 *Player*
 - Third person view
 - Shows icon of item in UI when picked up
@@ -93,7 +93,7 @@ PopCan.cs
 - Popup dialog when close with clues on where to go
   
   
-### Player Life 
+### Player Life: 
 - option to gain life back by picking up random item in level
 - Loss of life brings you to game over screen with extra hint
 - Health bar displayed at top of screen
@@ -101,7 +101,7 @@ PopCan.cs
   
   
 
-### Levels
+### Levels:
 *Backgrounds/scenes change depending on era*
 - School
 - Rocky/trees/water/mountain
@@ -110,7 +110,7 @@ PopCan.cs
 - Objects, containers, items, and bosses
   
   
-### Items
+### Items:
 - Items are required to be found and picked up to defeat each level’s boss
   
 *Pop Cans*
@@ -126,33 +126,17 @@ PopCan.cs
 - Throw with f key
   
   
-### Clues 
+### Clues: 
 - Level specific
 - Game Over’s scene has clue
   
   
-### Dialogs
+### Dialogs:
 - NPCs will give helpful hints
 - Storyline Dialogs will come through
   
 ---
 
-## Expanded Scope:
-Extra levels and additional enemies in dinosaur level to come.
-
----
-
-## Difficulties: 
-I had a number of difficulties with my project the terrain was a tricky one as I wanted to get something that felt “real” and the more realistic I went the more I realized that I needed to adapt other elements to match. I pulled in some terrain tools from a package and some terrain textures to get look and feel down. 
-
-Animations were a struggle for me but I got them working and figured out how to adapt downloaded ones to work with humanoid figures. Also how to modify and create my own animations. I used blender to create some meshes and skeletons for the models I didn’t have so I could use animations on them.
-
-Then came the lighting issues. Especially with the school scene I could not get the lighting to work inside the school with lights. Everything was either way to bright even with the intensity turned down or super dark. Both ends of the spectrum lost all the details I had put into the design of the school. 
-Then I had issues with the item pickup/throw. I could get the item picked up and attached to the character just fine but I could not get the throw. I figured out that I could just set it to inactive and put the icon in the HUD instead. Then do the other computing I needed making it look like it came from the player without it being attached to the player. It actually worked out better as the bone for the dinosaur scene is rather large and looked off when the player ran with it.
-
-These are just the big issues that I ran into and they took a lot of time to work through. I did however adapt my code to be generic for each continuing level so I could reuse a lot of my scripts.
-
----
 
 ## Scene Design Choices:
 ### Opening Scene, Congratulations Scene, and Game Over Scene:
@@ -312,6 +296,31 @@ ItemIndicator.cs (DinosaurScene)**
 
 
 ---
+  
+ ## Expanded Scope:
+8 total levels to time travel to different bosses in each level  
+additional enemies  
+items to pickup on the level that react to the scene  
+Weapons to use against enemies in level  
+  
+
+---
+
+## Difficulties: 
+I had a number of difficulties with my project the terrain was a tricky one as I wanted to get something that felt “real” and the more realistic I went the more I realized that I needed to adapt other elements to match. I pulled in some terrain tools from a package and some terrain textures to get look and feel down.  
+  
+Animations were a struggle for me but I got them working and figured out how to adapt downloaded ones to work with humanoid figures. Also how to modify and create my own animations. I used blender to create some meshes and skeletons for the models I didn’t have so I could use animations on them.  
+  
+Then came the lighting issues. Especially with the school scene I could not get the lighting to work inside the school with lights. Everything was either way to bright even with the intensity turned down or super dark. Both ends of the spectrum lost all the details I had put into the design of the school. 
+Then I had issues with the item pickup/throw. I could get the item picked up and attached to the character just fine but I could not get the throw. I figured out that I could just set it to inactive and put the icon in the HUD instead. Then do the other computing I needed making it look like it came from the player without it being attached to the player. It actually worked out better as the bone for the dinosaur scene is rather large and looked off when the player ran with it.  
+  
+These are just the big issues that I ran into and they took a lot of time to work through. I did however adapt my code to be generic for each continuing level so I could reuse a lot of my scripts.  
+
+I spent over 80 hours on what is here and some additional items that I had removed/extracted that goes to later levels/expanded versions of current levels that I was not able to finish in time. Including more items/background characters in the school scene, as well as, bigger playing area including outside. In the dinosaur level there is an enemies script that I started to set the framework in for the enemies and how they will take damage on collision. I had some additional models created for the enemies but they had issues with the gravity and animations to the point that they would up in the area and not come down. I realized it had to do with the colliders and how they initially collided and how they weren't updating the gravity. As such I removed them to make a more uniform scene.  
+  
+---
+  
+
 ## Software Used: 
 Photoshop  
 Blender  
