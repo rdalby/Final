@@ -23,6 +23,8 @@ Opening Scene
 ### Downloading/Running project comments: 
 When opening I had to remove the library folder to get it to upload as it was over 9gb and it exceeded my github upload allowance. But it should auto-create a new library folder when you import the project into unity. There are some files there I did not remove from some packages I imported but ended up not using I did try to clean it up the best I could but also leaving some for the expanded version of the game. The import errors you may receive on some of the models should be fine as they are not used in the scene and it runs without those references. 
 
+If you need the full project file with nothing deleted (over 40gb not sure how it got that way other than maybe the 4k textures) or the simplied version with library (roughly 12gb) I can provide a sharepoint or drive link if necessary. (rdalby@hsph.harvard.edu)
+
 ---
 
 ## Walkthrough: 
